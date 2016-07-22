@@ -101,7 +101,7 @@
     User user = new User();
     user.setName("李四");
     user.setTableId(1);
-    user.delete();
+    user.update();
 4.4 查询
 
     List<User> userList = SQLite.select().from(User.class).where(User_Table.name.eq("张三")).queryList();
