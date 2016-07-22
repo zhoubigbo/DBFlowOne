@@ -57,7 +57,7 @@ public class MainActivity extends Activity {
             User user = new User();
             user.setName("李四");
             user.setTableId(2);
-            user.delete();
+            user.update();
         }
     }
 
